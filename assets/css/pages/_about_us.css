@@ -1,0 +1,69 @@
+/* why-nokia */
+.p_about-us__why-nokia {
+  margin: 10% 0px;
+}
+
+.p_about-us__head {
+  margin: auto;
+  width: calc(
+    var(--width-layout) - var(--padding-layout-small) -
+      var(--padding-layout-small) - var(--padding-layout-small)
+  );
+}
+
+.p_about-us__text-why {
+  font-weight: var(--font-weight);
+  font-size: var(--font-size-small);
+}
+
+.p_about-us__text-head-big {
+  margin-bottom: 10%;
+
+  font-weight: var(--font-weight);
+  font-size: var(--font-size-supper-big);
+}
+
+.p_about-us__why-nokia--banner {
+  margin: auto;
+  width: var(--width-layout);
+}
+
+/* why-smartphone-nokia */
+.p_about-us__why-smartphone-nokia {
+  margin-bottom: 10%;
+}
+
+.p_about-us__text-logo {
+  font-size: var(--font-size-footer);
+}
+
+.p_about-us__text-head {
+  font-weight: var(--font-weight);
+  font-size: var(--font-size-head);
+}
+
+.p_about-us__text-title {
+  margin: 2% 0;
+
+  text-align: justify;
+  font-size: var(--font-size-medium);
+}
+
+.p_about-us__why-smartphone-banner-one {
+  margin: auto;
+  margin-bottom: 5%;
+  width: 40%;
+}
+
+.p_about-us__why-smartphone-banner-two {
+  margin: 5% 0px;
+}
+
+.p_about-us__why-smartphone-champion {
+  width: var(--width-layout);
+  margin: auto;
+}
+
+.p_about-us_return {
+  margin-top: 10%;
+}

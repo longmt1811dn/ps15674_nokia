@@ -1,0 +1,68 @@
+.main {
+  /* margin-top: 10%; */
+}
+
+.p_android-one__head {
+  margin: 5% 0px;
+
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight);
+}
+
+.p_android-one__head-big {
+  margin-bottom: 10%;
+
+  font-size: var(--font-size-big);
+  font-weight: var(--font-weight);
+}
+
+.p_android-one__title {
+  margin-bottom: 5%;
+
+  font-size: var(--font-size-medium);
+  text-align: justify;
+}
+
+.p_android-one__image {
+  width: 100%;
+  /* margin-bottom: -5px; */
+}
+
+.p_android-one__logo {
+  width: 60%;
+  padding: 10%;
+
+  margin-left: 20%;
+}
+
+/* Section Android One Capacity */
+.p_android-one__capacity {
+  margin: 10% 0px;
+  width: 100%;
+
+  background-image: linear-gradient(
+    to top,
+    var(--color-background-gray),
+    var(--color-white)
+  );
+}
+
+.p_android-one__capacity--width {
+  margin: auto;
+  width: calc(
+    var(--width-layout) - var(--padding-layout-small) -
+      var(--padding-layout-small)
+  );
+}
+
+/* Section Android One Benefit */
+.p_android-one__benefit {
+  margin: auto;
+  width: var(--width-layout);
+
+  background-color: var(--color-background-gray);
+}
+
+.p_android-one__benefit--box {
+  margin: 10% 0px;
+}

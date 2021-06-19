@@ -1,0 +1,53 @@
+:root {
+  /* font - size */
+  --font-family: Arial, Helvetica, sans-serif;
+  --font-size-logo: 24px;
+  --font-size-small: 17px;
+  --font-size-medium: 19px;
+  --font-size-big: 61px;
+  --font-size-supper-big: 81px;
+  --font-size-head: 33px;
+  --font-size-head-big: 38px;
+  --font-size-footer: 29px;
+
+  /* font - size - mobile */
+  --font-size-mobile-big: 32px;
+  --font-size-mobile-medium: 20px;
+  --font-size-mobile-small: 16px;
+
+  /* font - weight */
+  --font-weight: 600;
+
+  /* height - header */
+  --height-header: 66px;
+
+  /* height - footer */
+  --height-footer: 50px;
+
+  /* height - section */
+  --height-section: 100px;
+
+  /* width-layout-item */
+  --width-layout: 90%;
+
+  /* button */
+  --padding-button-big: 20px 35px;
+  --padding-button-small: 15px 28px;
+
+  /* padding - layout - small */
+  --padding-layout-small: 5%;
+
+  /* color */
+  --color-white: #fff;
+  --color-blue-white: #0065ed;
+  --color-blue: #124191;
+  --color-black: #001135;
+  --color-gray: #8c94a4;
+  --color-blue-gray: #1a294a;
+
+  /* color background */
+  --color-background-dark-yellow: #dfa72c;
+  --color-background-yellow: #fad45a;
+  --color-background-gray: rgb(230, 230, 230);
+  --color-background-footer: #f2f2f2;
+}

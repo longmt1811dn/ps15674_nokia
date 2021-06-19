@@ -1,0 +1,215 @@
+/* mobile */
+@media (max-width: 800px) {
+  /* Header */
+  .header__logo {
+    width: 40%;
+  }
+
+  .header__item-link {
+    font-size: var(--font-size-mobile-medium);
+  }
+
+  /* Nav */
+  .nav__dropdown-content {
+    min-width: 330px;
+  }
+
+  .nav__item--hide {
+    display: none;
+  }
+
+  .fas {
+    font-size: var(--font-size-mobile-medium);
+  }
+
+  /* Main */
+
+  /* Main Global */
+  .main__list {
+    flex-direction: column;
+  }
+
+  .main__list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+
+  /* Begin main__about-us */
+  .main__item--head {
+    padding: 13% 0px 0px 0px;
+
+    font-size: var(--font-size-mobile-big);
+  }
+
+  .main__item-title {
+    font-size: var(--font-size-mobile-small);
+  }
+
+  .main__image-banner-about-us {
+    width: calc(100%);
+    height: 100%;
+  }
+  /* End main__about-us */
+
+  /* Begin main__favorite-product */
+  .main__head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .main__head-item {
+  }
+
+  .main__text--head {
+    font-size: var(--font-size-mobile-big);
+    line-height: 5px;
+  }
+
+  .main__list-product {
+    width: 100%;
+  }
+
+  .main__image-product--down {
+    left: 50%;
+  }
+
+  .main__name-product {
+    margin-top: 10px;
+  }
+
+  .main__button-product {
+    margin-top: 10px;
+    margin-bottom: 69px;
+  }
+  /* End main__favorite-product */
+
+  /* Begin Main - andoid - new */
+  .main__android-new {
+    margin-top: -50px;
+  }
+
+  .main__text-android-new {
+    padding-left: var(--padding-layout-small);
+  }
+  /* End Main - andoid - new */
+
+  .main__image-android-original {
+    width: 70%;
+  }
+
+  /* Begin main__Registration */
+  .main__text-registration {
+    font-size: var(--font-size-mobile-medium);
+  }
+
+  .main__checkbox-text,
+  .main__email {
+    font-size: var(--font-size-mobile-small);
+  }
+  /* End main__Registration */
+
+  /* Begin main__return */
+  .main__return-link {
+    font-size: var(--font-size-mobile-medium);
+  }
+  /* End main__return */
+
+  /* End MAIN */
+
+  /* Begin Footer */
+  .footer__list--layout-three {
+    flex-direction: column;
+  }
+
+  .footer__list--layout-three-item {
+    width: 100%;
+
+    text-align: center;
+  }
+
+  .footer__item-link {
+    font-size: var(--font-size-mobile-small);
+  }
+
+  .footer__item-head {
+    font-size: var(--font-size-mobile-medium);
+  }
+
+  .footer__item-logo,
+  .footer__item-logo-hmd {
+    font-size: var(--font-size-mobile-medium);
+  }
+  /* End Footer */
+
+  /* Begin p_about-us */
+  .p_about-us__why-smartphone-nokia {
+    margin-bottom: 30%;
+  }
+
+  .p_about-us__why-nokia {
+    margin: 20% 0px;
+  }
+
+  .p_about-us__why-smartphone-banner-one {
+    width: 80%;
+  }
+
+  .p_about-us__text-head-big {
+    margin-top: 10%;
+
+    font-size: var(--font-size-mobile-big);
+  }
+
+  .p_about-us__text-title {
+    font-size: var(--font-size-mobile-medium);
+  }
+
+  .p_about-us__text-head {
+    font-size: var(--font-size-mobile-medium);
+  }
+  /* End p_about-us */
+
+  /* Begin p_android-one */
+  .p_android-one__head {
+    font-size: var(--font-size-mobile-small);
+  }
+
+  .p_android-one__head-big {
+    font-size: var(--font-size-mobile-big);
+  }
+
+  .p_android-one__title {
+    font-size: var(--font-size-mobile-medium);
+  }
+
+  .p_android-one__logo {
+    margin-left: 15%;
+  }
+  /* End p_android-one */
+
+  /* Begin p_all-product */
+  .p_all-product__button {
+    display: block;
+  }
+
+  .p_allproduct__list-product {
+    margin-bottom: 0;
+  }
+  /* End p_all-product */
+
+  /* Begin p_product-details */
+
+  /* End p_product-details */
+
+  /* Begin Hover */
+  .main__image-product:hover .main__image-product--down {
+    transform: translateX(-60%);
+  }
+  /* End Hover */
+}

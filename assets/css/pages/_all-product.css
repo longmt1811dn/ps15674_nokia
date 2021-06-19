@@ -1,0 +1,27 @@
+.p_all-product__head {
+  margin: 0px 0px 5% 0px;
+
+  border-bottom: 2px solid var(--color-background-gray);
+}
+
+.p_all-product__head-text {
+  padding: 2% 0px;
+  margin: auto;
+  width: var(--width-layout);
+
+  font-size: var(--font-size-head-big);
+  font-weight: var(--font-weight);
+}
+
+.p_all-product__button {
+  display: none;
+}
+
+.p_allproduct__list-product {
+  margin-bottom: 5%;
+}
+
+/* Hover */
+.p_allproduct__item-product:hover .p_all-product__button {
+  display: block;
+}

@@ -1,0 +1,105 @@
+.button {
+  display: block;
+
+  padding: var(--padding-button-big);
+  width: fit-content;
+
+  border-radius: 4px;
+
+  text-decoration: none;
+}
+
+.button--full {
+  display: block;
+
+  padding: var(--padding-button-big);
+
+  border-radius: 4px;
+
+  text-decoration: none;
+}
+
+.button--white {
+  display: block;
+
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-weight: bold;
+  font-size: var(--font-size-medium);
+}
+
+.button--white-blue {
+  padding: var(--padding-button-small);
+
+  border: 3px solid var(--color-blue-white);
+  color: var(--color-blue-white);
+  font-weight: var(--font-weight);
+}
+
+.button--blue-white {
+  padding: var(--padding-button-small);
+
+  color: var(--color-white);
+  background-color: var(--color-blue-white);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size-medium);
+}
+
+.button--blue-gray {
+  color: var(--color-gray);
+  background-color: var(--color-blue-gray);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight);
+}
+
+/* Hover */
+.button--white:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.button--white-blue:hover {
+  background-color: var(--color-blue-white);
+  color: var(--color-white);
+}
+
+.button--blue-white:hover {
+  background-color: var(--color-blue);
+}
+
+.button--blue-gray:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+/* Reponsive */
+@media (max-width: 700px) {
+  .button {
+    display: block;
+
+    padding: var(--padding-button-small);
+    width: fit-content;
+
+    border-radius: 3px;
+
+    text-decoration: none;
+  }
+
+  .button--full {
+    display: block;
+
+    padding: var(--padding-button-small);
+    width: fit-content;
+
+    border-radius: 3px;
+
+    text-decoration: none;
+  }
+
+  .button--white {
+    font-size: var(--font-size-mobile-small);
+  }
+
+  .button--blue-gray {
+    font-size: var(--font-size-mobile-small);
+  }
+}
